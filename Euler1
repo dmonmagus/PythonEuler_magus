@@ -10,8 +10,8 @@ def Suma3y5(x):
     return sum
 print("Ingrese el rango maximo donde se buscara la suma de los multiples de 3 o 5")
 try:
-    entrada = int(input)
-    print(Suma3y5(entrada), "Este es el resultado")
+    entrada = int(input())
+    print("Esta es la suma", Suma3y5(entrada))
 except:
     print("El numero ingresado debe ser entero no se admiten letras o simbolos especiales")
     print("Reinice el programa")
